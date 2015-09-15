@@ -9,14 +9,14 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="lib/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 
   </head>
@@ -57,6 +57,16 @@
 
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+
+        <!-- Add the extra clearfix for only the required viewport -->
+        <div class="clearfix visible-xs-block"></div>
+
+        <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+      </div>
 
       <div class="footer">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
@@ -67,12 +77,19 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="lib/modernizr/modernizr.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/underscore/underscore.js"></script>
+    <script src="lib/backbone/backbone.js"></script>
+<!--    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>-->
+    <script src="lib/seajs/dist/sea.js"></script>
+    <script src="lib/spin.js/spin.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
 
         <!-- build:js(.) scripts/plugins.js -->
-        <script src="bower_components/bootstrap/dist/bootstrap.min.js"></script>
+    <!--    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>-->
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
