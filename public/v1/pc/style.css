@@ -8,7 +8,7 @@
     left: 0;
     width:100%;
     background-color: #192639;
-
+    z-index: 10;
 }
 .header-top{
     padding: 2px 0 5px;
@@ -22,6 +22,13 @@
 }
 .header-top img ,.header-top .log-btn-group{
     margin-left: 15px;
+}
+.nav-cot{
+  height: 44px;
+}
+.site-logo{
+  padding: 4px 0;
+  display: inline-block;
 }
 .it_nav_list.navbar-right{
     margin-right: -20px!important;
@@ -39,9 +46,67 @@
     -moz-transition: all ease .3s;
     -ms-transition: all ease .3s;
     transition: all ease .3s;
+  background-color: transparent!important
 }
 .it_nav_list .nav_item >a:hover{
     border-bottom: 4px solid #336EC4 !important;
-    background-color: transparent;
+    background-color: transparent!important;
 
 }
+
+.section{
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.page-1{
+  background-image:url(img/page-bg-1.png);
+}
+.page-2{
+  background-image:url(img/page-bg-2.png);
+}
+.page-3{
+  background-image:url(img/page-bg-3.png);
+}
+.page-4{
+  background-image:url(img/page-bg-4.png);
+}
+.page-5{
+  background-image:url(img/page-bg-5.png);
+}
+.sub-container{
+  position: absolute;
+  width: 100%;
+  top:73px;
+  bottom:0;
+}
+
+.page-1 .title-bg{
+  background: url(img/title-bg-1.png) 50% 30% no-repeat;
+  height: 200px;
+  line-height: 200px;
+  background-size: contain;
+  margin-top:50px ;
+}
+.page-1 .cus-panel-row{
+  margin-top:50px ;
+}
+.page-1 .cus-panel-item{
+  height: 120px;
+  background: url(img/card-bg.png) center center no-repeat;
+  background-size: contain;
+}
+.page-1 .cus-footer{
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0;
+  width: 100%;
+  background: -moz-linear-gradient(left,  rgba(2,2,2,0.1) 1%, rgba(2,4,20,0.74) 50%, rgba(10,10,10,0.1) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%,rgba(2,2,2,0.1)), color-stop(50%,rgba(2,4,20,0.74)), color-stop(100%,rgba(10,10,10,0.1)));
+  background: -webkit-linear-gradient(left,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  background: -o-linear-gradient(left,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  background: -ms-linear-gradient(left,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  background: linear-gradient(to right,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a020202', endColorstr='#1a0a0a0a',GradientType=1 );
+  color:#336EC4;
+}
+

@@ -78,7 +78,7 @@ module.exports = function (grunt) {
           middleware: function(connect) {
             return [
               connect.static('.tmp'),
-              connect().use('/bower_components', connect.static('./bower_components')),
+              connect().use('/lib', connect.static('./lib')),
               connect.static(config.app)
             ];
           }
@@ -92,7 +92,7 @@ module.exports = function (grunt) {
             return [
               connect.static('.tmp'),
               connect.static('test'),
-              connect().use('/bower_components', connect.static('./bower_components')),
+              connect().use('/lib', connect.static('./lib')),
               connect.static(config.app)
             ];
           }
@@ -165,7 +165,7 @@ module.exports = function (grunt) {
       app: {
         ignorePath: /^\/|\.\.\//,
         src: ['<%= config.app %>/index.html'],
-        exclude: ['bower_components/bootstrap/dist/js/bootstrap.js']
+        exclude: ['lib/bootstrap/dist/js/bootstrap.js']
       }
     },
 
@@ -298,7 +298,7 @@ module.exports = function (grunt) {
         }, {
           expand: true,
           dot: true,
-          cwd: 'bower_components/bootstrap/dist',
+          cwd: 'lib/bootstrap/dist',
           src: 'fonts/*',
           dest: '<%= config.dist %>'
         }]
@@ -316,7 +316,7 @@ module.exports = function (grunt) {
     // reference in your app
     modernizr: {
       dist: {
-        devFile: 'bower_components/modernizr/modernizr.js',
+        devFile: 'lib/modernizr/modernizr.js',
         outputFile: '<%= config.dist %>/scripts/vendor/modernizr.js',
         files: {
           src: [

@@ -1,56 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Interview for PC</title>
-    <link rel="stylesheet" type="text/css" href="../libs/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../libs/fullPage/jquery.fullPage.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Interview for PC</title>
+  <link rel="stylesheet" type="text/css" href="../libs/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../libs/fullPage/jquery.fullPage.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-    <header class="header-bar">
-        <nav class="navbar fix-top">
-            <div class="container">
-                <div class="row header-top">
-                    <div class="col-md-6 col-xs-6">
-                        <div>关于我们 : <a href="#"><img src="img/wx-icon.png"> </a> <img src="img/phone-icon.png"> 400-411-411</div>
-                    </div>
-                    <div class="col-md-6 col-xs-6">
-                        <div class="pull-right">
-                            Welcome , <span class="userName">guest</span> ,
-                            <span class="status-unLogIn">请先 : <div class="log-btn-group"><a href="#">登录</a> | <a href="#">注册</a></div></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2 col-xs-2">
-                        <a href="javascript:;"><img src="img/logo.png"></a>
-                    </div>
-                    <div class="col-md-10 col-xs-10">
-                        <ul class="nav navbar-nav navbar-right it_nav_list">
-                            <li class="nav_item active">
-                                <a href="#page-2">首页</a>
-                            </li>
-                            <li class="nav_item">
-                                <a href="#page-2">解决方案</a>
-                            </li>
-                            <li class="nav_item">
-                                <a href="#page-3">产品服务</a>
-                            </li>
-                            <li class="nav_item">
-                                <a href="#page-4">技术风险</a>
-                            </li>
-                            <li class="nav_item">
-                                <a href="#page-5">关于我们</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<header class="header-bar">
+  <nav class="navbar fix-top">
+    <div class="container">
+      <div class="row header-top">
+        <div class="col-md-6 col-xs-6">
+          <div>关于我们 : <a href="#"><img src="img/wx-icon.png"> </a> <img src="img/phone-icon.png"> 400-411-411</div>
+        </div>
+        <div class="col-md-6 col-xs-6">
+          <div class="pull-right">
+            Welcome , <span class="userName">guest</span> ,
+            <span class="status-unLogIn">请先 : <div class="log-btn-group"><a href="#">登录</a> | <a href="#">注册</a>
+            </div></span>
+          </div>
+        </div>
+      </div>
+      <div class="row nav-cot">
+        <div class="col-md-2 col-xs-2">
+          <a href="javascript:;" class="site-logo"><img src="img/logo.png"></a>
+        </div>
+        <div class="col-md-10 col-xs-10">
+          <ul class="nav navbar-nav navbar-right it_nav_list" id="menu">
+            <li class="nav_item active">
+              <a href="#page-1">首页</a>
+            </li>
+            <li class="nav_item">
+              <a href="#page-2">解决方案</a>
+            </li>
+            <li class="nav_item">
+              <a href="#page-3">产品服务</a>
+            </li>
+            <li class="nav_item">
+              <a href="#page-4">技术风险</a>
+            </li>
+            <li class="nav_item">
+              <a href="#page-5">关于我们</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="fullpage">
+  <div class="section fp-section page-1">
+    <div class="sub-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6  col-sm-6 col-md-offset-3 col-sm-offset-3 title-bg text-center">
+            <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
+              <img src="img/title-text-1.png" width="100%"/>
             </div>
-        </nav>
-    </header>
 
-    <div class="fp-section"></div>
+          </div>
+        </div>
+
+        <div class="row cus-panel-row">
+          <div class="col-md-4 col-sm-4">
+            <div class="row">
+              <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 cus-panel-item"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="row">
+              <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 cus-panel-item"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="row">
+              <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 cus-panel-item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cus-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
+              <button class="btn btn-primary pull-right">立刻体验 &gt;&gt;</button>
+              <h4><b>识别有效客户 </b><b>阻止欺诈行为 </b></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+  <div class="section fp-section page-2">
+
+  </div>
+  <div class="section fp-section page-3">
+
+  </div>
+  <div class="section fp-section page-4">
+
+  </div>
+  <div class="section fp-section page-5">
+
+  </div>
+</div>
+
+<script src="../libs/jquery/dist/jquery.js"></script>
+<script src="../libs/fullPage/jquery.fullPage.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
