@@ -1,0 +1,125 @@
+.theme-header-color{
+  color:#1AD4CE !important;
+}
+.theme-text-color{
+  color:#65BFDF !important;
+}
+.header-title{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 80px;
+}
+.sub-title{
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.fix-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  background-color: #192639;
+  z-index: 10;
+}
+.mo-app .logo{
+  padding: 8px!important;
+}
+.mo-app .cus-button,.mo-app .header-nav{
+  background-color: transparent!important;
+}
+.mo-app  .navbar-default .navbar-toggle:focus,.mo-app  .navbar-default .navbar-toggle:hover{
+  background-color: transparent!important;
+}
+.mo-app .navbar-toggle{
+  border: none;
+  margin-right: 0;
+}
+
+@media (max-width: 768px){
+  .mo-app .navbar-collapse{
+    border: none;
+    position: absolute;
+    right: 16px;
+    z-index: 20;
+    border-radius:3px ;
+    background-color: #192639;
+    top: 48px;
+  }
+}
+.mo-app .navbar-default .navbar-nav>li>a:focus, .mo-app .navbar-default .navbar-nav>li>a:hover{
+  color: #65bfdf!important;
+}
+.mo-app .navbar-default .navbar-nav>li>a{
+  color: #eee!important;
+}
+.mo-app .header-nav{
+  border: none!important;
+  margin-bottom: 0;
+}
+.section{
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.page-1{
+  background-image:url(img/page-bg-1.png);
+}
+.page-2{
+  background-image:url(img/page-bg-2.png);
+}
+
+.page-1 .title-bg{
+  background: url(img/title-bg-1.png) 50% 30% no-repeat;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+.page-1 .title-text-bg{
+  padding: 45px 0;
+}
+.page-1 .cus-panel-row{
+  margin-top:50px ;
+}
+.page-1 .cus-panel-item{
+  height: 120px;
+  background: url(img/card-bg.png) center center no-repeat;
+  background-size: contain;
+}
+.page-1 .cus-footer{
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0;
+  width: 100%;
+  background: -moz-linear-gradient(left,  rgba(2,2,2,0.1) 1%, rgba(2,4,20,0.74) 50%, rgba(10,10,10,0.1) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%,rgba(2,2,2,0.1)), color-stop(50%,rgba(2,4,20,0.74)), color-stop(100%,rgba(10,10,10,0.1)));
+  background: -webkit-linear-gradient(left,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  background: -o-linear-gradient(left,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  background: -ms-linear-gradient(left,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  background: linear-gradient(to right,  rgba(2,2,2,0.1) 1%,rgba(2,4,20,0.74) 50%,rgba(10,10,10,0.1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a020202', endColorstr='#1a0a0a0a',GradientType=1 );
+  color:#336EC4;
+}
+.page-2 .left-info,.page-2 .right-info{
+  position: absolute;
+  top: 100px;
+  width: 200px;
+}
+.page-2 .left-info{
+  left: -220px;
+}
+.page-2 .right-info{
+  right: -250px;
+}
+
+.page-2  .cus-list>li{
+  line-height: 1.8em;
+}
+.page-2 .sub-title{
+  margin-bottom:20px ;
+}
+.page-2 .line-cot{
+  position:absolute ;
+  top: 37px;
+}
+.left-info .line-cot{
+  width: 400px;
+  left: 65px;
+}

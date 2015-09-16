@@ -1,4 +1,18 @@
-
+.theme-header-color{
+  color:#1AD4CE !important;
+}
+.theme-text-color{
+  color:#65BFDF !important;
+}
+.header-title{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 80px;
+}
+.sub-title{
+  font-size: 20px;
+  font-weight: bolder;
+}
 .header-bar,.header-bar a{
     color: #B4B5B5;
 }
@@ -109,4 +123,88 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a020202', endColorstr='#1a0a0a0a',GradientType=1 );
   color:#336EC4;
 }
+.page-2 .left-info,.page-2 .right-info{
+  position: absolute;
+  top: 100px;
+  width: 200px;
+}
+.page-2 .left-info{
+  left: -220px;
+}
+.page-2 .right-info{
+  right: -250px;
+}
 
+.page-2  .cus-list>li{
+  line-height: 1.8em;
+}
+.page-2 .sub-title{
+  margin-bottom:20px ;
+}
+.page-2 .line-cot{
+  position:absolute ;
+  top: 37px;
+}
+.left-info .line-cot{
+  width: 400px;
+  left: 65px;
+}
+.line-radio{
+  width: 8px;
+  height: 8px;
+  border: 1px solid #65BFDF;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 4px;
+  background-color: #65BFDF;
+  float: left;
+  margin-top: -3px;
+  margin-right: -1px;
+}
+.line-normal{
+  display: inline-block;
+  width: 112px;
+  border-bottom: 2px solid #65BFDF;
+  float: left;
+}
+.line-up{
+  display: inline-block;
+  width: 73px;
+  border-bottom: 2px solid #65BFDF;
+  margin-bottom: 3px;
+  float: left;
+  transform-origin: 0;
+  transform: rotate(-37deg);
+}
+.right-info .line-cot{
+  left: -79px;
+  width: 400px;
+}
+.right-info .line-normal{
+  width: 80px;
+}
+.line-down{
+  display: inline-block;
+  width: 73px;
+  border-bottom: 2px solid #65BFDF;
+  margin-bottom: 3px;
+  float: left;
+  transform-origin: 73px;
+  transform: rotate(33deg);
+  -ms-transform-origin: 73px;
+  -ms-transform: rotate(33deg);
+  -webkit-transform-origin: 73px;
+  -webkit-transform: rotate(33deg);
+  -moz-transform-origin: 73px;
+  -moz-transform: rotate(33deg);
+  -o-transform-origin: 73px;
+  -o-transform: rotate(33deg)
+}
+.page-2 .cus-panel-main{
+  background: url(img/main-area-2.png) center center no-repeat;
+  background-size: contain;
+}
+
+.page-4 .left-info,.page-4 .right-info{
+  position: absolute;
+}
